@@ -1,0 +1,40 @@
+.lhs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.toolBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.countriesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.countryPanel {
+  background: white;
+  padding: 8px;
+}
+
+.countryScore {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.countryRank {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.countryTitle {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
